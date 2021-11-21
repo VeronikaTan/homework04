@@ -138,6 +138,7 @@ header {
 }
 .head-contacts-icon {
   margin-right: 10px;
+  fill: #757575;
 }
 .phone-icon,
 .mail-icon {
@@ -147,6 +148,8 @@ header {
   margin-right: 50px;
 }
 .hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
   background-color: var(--footer-background-color);
   background-image: linear-gradient(
       to right,
@@ -156,11 +159,7 @@ header {
     url(../images/bgimage.jpg);
   max-width: 1600px;
 }
-.hero-content {
-  max-width: 700px;
-  padding-top: 200px;
-  padding-bottom: 200px;
-}
+
 .hero-title {
   font-style: normal;
   font-weight: 900;
@@ -171,6 +170,9 @@ header {
   text-transform: uppercase;
   color: var(--thirdparty-text-color);
   max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
 }
 
 .hero-button {
@@ -189,7 +191,6 @@ header {
   text-align: center;
   font-weight: bold;
   cursor: pointer;
-  margin-top: 30px;
 }
 .hero-button:hover,
 .hero-button:focus {
@@ -205,8 +206,6 @@ header {
   left: 100px;
 }
 .column-card {
-  max-width: 270px;
-  display: inline-flex;
   margin-left: 30px;
   flex-basis: calc((100% - 120px) / 4);
 }
@@ -241,7 +240,6 @@ header {
   display: flex;
 }
 .workspace-card {
-  display: inline-flex;
   margin-right: 30px;
   flex-basis: calc((100% - 90px) / 3);
 }
@@ -292,7 +290,7 @@ header {
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
   margin-top: 10px;
-  padding-bottom: 30px;
+  padding-bottom: 16px;
 }
 .social-media {
   display: flex;
@@ -403,7 +401,7 @@ footer {
 .page-nav {
   display: flex;
   justify-content: center;
-  padding-top: 94px;
+  padding-bottom: 50px;
 }
 .page-nav-list {
   flex-direction: row;
@@ -438,8 +436,6 @@ footer {
   margin-top: 30px;
   margin-left: 30px;
   flex-basis: calc((100% - 90px) / 3);
-}
-.card-link {
 }
 
 .card-rede {
