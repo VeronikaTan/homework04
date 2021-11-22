@@ -148,7 +148,7 @@ header {
 .mail-icon {
   fill: #757575;
 }
-.head-contacts-list:last-child {
+.head-contacts-list:first-child {
   margin-right: 50px;
 }
 .hero {
