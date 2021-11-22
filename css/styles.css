@@ -69,6 +69,8 @@ a {
   line-height: 1.19;
   display: block;
   margin-right: 93px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 span {
   color: var(--accent-color);
@@ -79,8 +81,6 @@ header {
 .header-nav {
   align-items: center;
   display: flex;
-  padding-top: 25px;
-  padding-bottom: 25px;
 }
 .head-nav {
   font-weight: 500;
@@ -103,6 +103,8 @@ header {
   font-weight: 500;
   display: block;
   align-items: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .head-nav-link:hover,
 .head-nav-link:focus {
@@ -135,6 +137,8 @@ header {
   align-items: center;
   color: var(--secondary-text-color);
   display: flex;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .head-contacts-icon {
   margin-right: 10px;
@@ -144,7 +148,7 @@ header {
 .mail-icon {
   fill: #757575;
 }
-.head-contacts-link:last-child {
+.head-contacts-list:last-child {
   margin-right: 50px;
 }
 .hero {
@@ -279,10 +283,11 @@ header {
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
-  margin-top: 30px;
 }
 .team-player-info {
   text-align: center;
+  padding-top: 30px;
+  padding-bottom: 16px;
 }
 .team-player-position {
   font-size: 16px;
@@ -290,7 +295,6 @@ header {
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
   margin-top: 10px;
-  padding-bottom: 16px;
 }
 .social-media {
   display: flex;
@@ -457,6 +461,9 @@ footer {
   display: inline-flex;
   justify-content: center;
 }
+.page-nav-list:last-child {
+  margin-right: 0;
+}
 .page-nav-button {
   background-color: var(--button-background-color);
   border-radius: 4px;
@@ -486,6 +493,7 @@ footer {
   margin-left: 30px;
   flex-basis: calc((100% - 90px) / 3);
 }
+
 .card:hover,
 .card:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
@@ -494,22 +502,24 @@ footer {
 
 .card-rede {
   border: 1px solid #eeeeee;
+  border-top: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 .card-title {
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  padding-left: 24px;
-  padding-top: 20px;
+  margin-bottom: 4px;
 }
 .card-text {
   color: var(--secondary-text-color);
   font-size: 16px;
   line-height: 1.8;
   letter-spacing: 0.03em;
-  padding-left: 24px;
-  padding-bottom: 20px;
 }
 .card:nth-child(3n + 1) {
   margin-left: 0;
